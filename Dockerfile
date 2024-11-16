@@ -1,5 +1,5 @@
 # base image with python
-FROM python:3.11.4
+FROM python
 
 WORKDIR /app
 ENV IS_DOCKER=docker
